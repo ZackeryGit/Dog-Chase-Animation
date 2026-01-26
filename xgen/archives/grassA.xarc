@@ -1,0 +1,8 @@
+#ArchiveGroup 0 name="grassA" description="No description." thumbnail="grassA.png" materials="D:/UVU/UVU-AGD-Portfolio/MayaProject/Dog-Chase-Animation/xgen/archives/materials/grassA.ma" color=[1,0,0]
+0 "D:/UVU/UVU-AGD-Portfolio/MayaProject/Dog-Chase-Animation/xgen/archives/abc/grassA.abc" material=grassA:aiStandardSurface2SG objects=|Grass
+1 "D:/UVU/UVU-AGD-Portfolio/MayaProject/Dog-Chase-Animation/xgen/archives/abc/grassA.abc" material=grassA:aiStandardSurface2SG objects=|Grass
+2 "D:/UVU/UVU-AGD-Portfolio/MayaProject/Dog-Chase-Animation/xgen/archives/abc/grassA.abc" material=grassA:aiStandardSurface2SG objects=|Grass
+3 "D:/UVU/UVU-AGD-Portfolio/MayaProject/Dog-Chase-Animation/xgen/archives/ass/grassA__Grass.ass.gz" material=grassA:GrassShader2 objects=|Grass
+4 "D:/UVU/UVU-AGD-Portfolio/MayaProject/Dog-Chase-Animation/xgen/archives/ass/grassA__Grass.ass.gz" material=grassA:GrassShader2 objects=|Grass
+5 "D:/UVU/UVU-AGD-Portfolio/MayaProject/Dog-Chase-Animation/xgen/archives/ass/grassA__Grass.ass.gz" material=grassA:GrassShader2 objects=|Grass
+
