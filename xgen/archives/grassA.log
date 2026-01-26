@@ -1,0 +1,138 @@
+Qt WebEngine seems to be initialized from a plugin. Please set Qt::AA_ShareOpenGLContexts using QCoreApplication::setAttribute and QSGRendererInterface::OpenGLRhi using QQuickWindow::setGraphicsApi before constructing QGuiApplication.
+AbcExport v1.0 using Alembic 1.8.5 (built Sep 19 2024 06:28:52)
+00:00:00   389MB         | log started Sun Jan 25 20:08:42 2026
+00:00:00   389MB         | Arnold 7.3.4.1 [0bcd9b62] windows x86_64 clang-15.0.7 oiio-2.4.1 osl-1.13.0 vdb-11.0.0 adlsdk-8.0.7.50 clmhub-3.1.1.43 rlm-14.2.5 optix-8.0.0 2024/09/17 06:56:29
+00:00:00   389MB         | running on AJComputer, pid=17796
+00:00:00   389MB         |  1 x 11th Gen Intel(R) Core(TM) i7-11700F @ 2.50GHz (8 cores, 16 logical) with 16239MB
+00:00:00   389MB         |  NVIDIA driver version 560.94
+00:00:00   389MB         |  GPU 0: NVIDIA GeForce RTX 3060 Ti @ 1680MHz (compute 8.6) with 8191MB (5875MB available) (NVLink:0)
+00:00:00   389MB         |  Windows 10 (version 10.0, build 26200)
+00:00:00   389MB         |  soft limit for open files changed from 512 to 2048
+00:00:00   389MB         |  
+00:00:00   389MB         | Installing system handler with mask 255
+00:00:01   560MB         | [metadata] loading metadata file: C:\Program Files\Autodesk\Arnold\Maya2025\bin\arnold.mtd
+00:00:01   562MB         | loading plugins from C:/Program Files/Autodesk/Arnold/Maya2025/shaders ...
+00:00:01   562MB         |  hairPhysicalShader_shaders.dll: HairPhysicalShaderDiffuseColorAdapter uses Arnold 7.3.4.1
+00:00:01   562MB         |  hairPhysicalShader_shaders.dll: HairPhysicalShaderSpecularWeightAdapter uses Arnold 7.3.4.1
+00:00:01   562MB         |  hairPhysicalShader_shaders.dll: HairPhysicalShaderSpecularGlossAdapter uses Arnold 7.3.4.1
+00:00:01   562MB         |  hairPhysicalShader_shaders.dll: HairPhysicalShaderTransmissionWeightAdapter uses Arnold 7.3.4.1
+00:00:01   562MB         |  hairPhysicalShader_shaders.dll: HairPhysicalShaderTransmissionSpreadAdapter uses Arnold 7.3.4.1
+00:00:01   562MB         |  lookdevkit_shaders.dll: ldkFloatConstant uses Arnold 7.3.4.1
+00:00:01   562MB         |  lookdevkit_shaders.dll: ldkFloatComposite uses Arnold 7.3.4.1
+00:00:01   562MB         |  lookdevkit_shaders.dll: ldkFloatCondition uses Arnold 7.3.4.1
+00:00:01   562MB         |  lookdevkit_shaders.dll: ldkFloatCorrect uses Arnold 7.3.4.1
+00:00:01   562MB         |  lookdevkit_shaders.dll: ldkFloatLogic uses Arnold 7.3.4.1
+00:00:01   562MB         |  lookdevkit_shaders.dll: ldkFloatMask uses Arnold 7.3.4.1
+00:00:01   562MB         |  lookdevkit_shaders.dll: ldkFloatMath uses Arnold 7.3.4.1
+00:00:01   562MB         |  lookdevkit_shaders.dll: ldkColorComposite uses Arnold 7.3.4.1
+00:00:01   562MB         |  lookdevkit_shaders.dll: ldkColorCondition uses Arnold 7.3.4.1
+00:00:01   562MB         |  lookdevkit_shaders.dll: ldkColorConstant uses Arnold 7.3.4.1
+00:00:01   562MB         |  lookdevkit_shaders.dll: ldkColorCorrect uses Arnold 7.3.4.1
+00:00:01   563MB         |  lookdevkit_shaders.dll: ldkColorLogic uses Arnold 7.3.4.1
+00:00:01   563MB         |  lookdevkit_shaders.dll: ldkColorMask uses Arnold 7.3.4.1
+00:00:01   563MB         |  lookdevkit_shaders.dll: ldkColorMath uses Arnold 7.3.4.1
+00:00:01   563MB         |  lookdevkit_shaders.dll: ldkChannels uses Arnold 7.3.4.1
+00:00:01   563MB         |  lookdevkit_shaders.dll: ldkPremultiply uses Arnold 7.3.4.1
+00:00:01   563MB         |  lookdevkit_shaders.dll: ldkSimplexNoise uses Arnold 7.3.4.1
+00:00:01   563MB         |  mtoa_shaders.dll: MayaBulge uses Arnold 7.3.4.1
+00:00:01   563MB         |  mtoa_shaders.dll: MayaCloth uses Arnold 7.3.4.1
+00:00:01   563MB         |  mtoa_shaders.dll: MayaGrid uses Arnold 7.3.4.1
+00:00:01   563MB         |  mtoa_shaders.dll: MayaFractal uses Arnold 7.3.4.1
+00:00:01   563MB         |  mtoa_shaders.dll: MayaNoise uses Arnold 7.3.4.1
+00:00:01   563MB         |  mtoa_shaders.dll: MayaCloud uses Arnold 7.3.4.1
+00:00:01   563MB         |  mtoa_shaders.dll: MayaCloudAlpha uses Arnold 7.3.4.1
+00:00:01   563MB         |  mtoa_shaders.dll: MayaSnow uses Arnold 7.3.4.1
+00:00:01   563MB         |  mtoa_shaders.dll: MayaSolidFractal uses Arnold 7.3.4.1
+00:00:01   563MB         |  mtoa_shaders.dll: MayaVolumeNoise uses Arnold 7.3.4.1
+00:00:01   564MB         |  mtoa_shaders.dll: MayaBrownian uses Arnold 7.3.4.1
+00:00:01   564MB         |  mtoa_shaders.dll: MayaStucco uses Arnold 7.3.4.1
+00:00:01   564MB         |  mtoa_shaders.dll: MtoaWriteColor uses Arnold 7.3.4.1
+00:00:01   564MB         |  mtoa_shaders.dll: MtoaWriteFloat uses Arnold 7.3.4.1
+00:00:01   564MB         |  mtoa_shaders.dll: MayaEnvSphere uses Arnold 7.3.4.1
+00:00:01   564MB         |  mtoa_shaders.dll: MayaFluid uses Arnold 7.3.4.1
+00:00:01   564MB         |  mtoa_shaders.dll: MayaMarble uses Arnold 7.3.4.1
+00:00:01   564MB         |  mtoa_shaders.dll: MayaMountain uses Arnold 7.3.4.1
+00:00:01   564MB         |  mtoa_shaders.dll: MayaWater uses Arnold 7.3.4.1
+00:00:01   564MB         |  mtoa_shaders.dll: MayaCrater uses Arnold 7.3.4.1
+00:00:01   564MB         |  mtoa_shaders.dll: MayaLeather uses Arnold 7.3.4.1
+00:00:01   564MB         |  mtoa_shaders.dll: MayaGranite uses Arnold 7.3.4.1
+00:00:01   564MB         |  mtoa_shaders.dll: MayaRock uses Arnold 7.3.4.1
+00:00:01   564MB         |  mtoa_shaders.dll: MayaFluidData uses Arnold 7.3.4.1
+00:00:01   564MB         |  mtoa_shaders.dll: MayaFluidTexture2D uses Arnold 7.3.4.1
+00:00:01   564MB         |  renderSetup_shaders.dll: applyAbsFloatOverride uses Arnold 7.3.4.1
+00:00:01   564MB         |  renderSetup_shaders.dll: applyAbs2FloatsOverride uses Arnold 7.3.4.1
+00:00:01   565MB         |  renderSetup_shaders.dll: applyAbs3FloatsOverride uses Arnold 7.3.4.1
+00:00:01   565MB         |  renderSetup_shaders.dll: applyAbsIntOverride uses Arnold 7.3.4.1
+00:00:01   565MB         |  renderSetup_shaders.dll: applyRelFloatOverride uses Arnold 7.3.4.1
+00:00:01   565MB         |  renderSetup_shaders.dll: applyRel2FloatsOverride uses Arnold 7.3.4.1
+00:00:01   565MB         |  renderSetup_shaders.dll: applyRel3FloatsOverride uses Arnold 7.3.4.1
+00:00:01   565MB         |  renderSetup_shaders.dll: applyRelIntOverride uses Arnold 7.3.4.1
+00:00:01   565MB         |  xgenSpline_shaders.dll: XGenHairMapping uses Arnold 7.3.4.1
+00:00:01   565MB         | loading plugins from C:/Program Files/Autodesk/Arnold/Maya2025/procedurals ...
+00:00:01   565MB         |  mtoa_ParticleVolume_proc.dll: volume_particle uses Arnold 7.3.4.1
+00:00:01   565MB         |  mtoa_ParticleVolume_proc.dll: implicit_particle uses Arnold 7.3.4.1
+00:00:01   565MB         |  xgenSpline_procedural.dll: xgenProcedural uses Arnold 7.3.4.1
+00:00:01   565MB         |  xgen_procedural.dll: xgen_procedural uses Arnold 7.3.4.1
+00:00:01   565MB         | loaded 60 plugins from 8 lib(s) in 0:00.05
+00:00:01   565MB         | loading plugins from C:\Program Files\Autodesk\Arnold\Maya2025\bin\..\plugins ...
+00:00:01   565MB         |  alembic_proc.dll: alembic uses Arnold 7.3.4.1
+00:00:01   565MB         |  cryptomatte.dll: cryptomatte uses Arnold 7.3.4.1
+00:00:01   565MB         |  cryptomatte.dll: cryptomatte_filter uses Arnold 7.3.4.1
+00:00:01   565MB         |  cryptomatte.dll: cryptomatte_manifest_driver uses Arnold 7.3.4.1
+00:00:01   565MB         |  [metadata] loading metadata file: C:\Program Files\Autodesk\Arnold\Maya2025\bin\..\plugins\cryptomatte.mtd
+00:00:01   576MB         |  usd_proc.dll: usd uses Arnold 7.3.4.1
+00:00:01   576MB         | loaded 5 plugins from 3 lib(s) in 0:00.12
+qt.svg: Cannot open file ':/expression.svg', because: No such file or directory
+qt.svg: Cannot open file ':/expression.svg', because: No such file or directory
+hlp = xgenm.xmaya.xgmArchiveExport.xgmArchiveExport()
+hlp.processDir( 'grassA', 'D:/UVU/UVU-AGD-Portfolio/MayaProject/Dog-Chase-Animation/xgen/archives/', ['D:/UVU/UVU-AGD-Portfolio/MayaProject/Dog-Chase-Animation/assets/Park.ma'], ['|Grass'], 0, '0.0', '0.0', 0.000000, 0.000000 )
+Warning: file: D:/UVU/UVU-AGD-Portfolio/MayaProject/Dog-Chase-Animation/assets/Park.ma line 720762: Unrecognized node type 'nodeGraphEditorInfo'; preserving node information during this session.
+Warning: Errors have occurred while reading this scene that may result in data loss.
+File read in  5.6 seconds.
+Importing XGen Collections...
+Done.
+Exporting Arnold Scene...
+[  0.00%] creating sub directories D:/UVU/UVU-AGD-Portfolio/MayaProject/Dog-Chase-Animation/xgen/archives/
+[  0.00%]  processing file D:/UVU/UVU-AGD-Portfolio/MayaProject/Dog-Chase-Animation/assets/Park.ma
+[  0.00%]   processing scene D:/UVU/UVU-AGD-Portfolio/MayaProject/Dog-Chase-Animation/xgen/archives/grassA
+[  0.00%]    openScene D:/UVU/UVU-AGD-Portfolio/MayaProject/Dog-Chase-Animation/assets/Park.ma
+[  0.00%]    fixNodeToShapeParent objs - ['|Grass']
+[  0.00%]    fixNodeToShapeParent shapeParentObj - ['|Grass']
+[ 25.00%]    processScene 1 ['|Grass']
+[ 25.00%]    processScene 2 ['|Grass']
+[  0.00%]     splitByShadingGroups ['|Grass']
+[  0.00%]     getSGsFromObj |Grass
+[  0.00%]     getSGsFromObj( |Grass ) returned ['aiStandardSurface2SG']
+[ 12.50%]    processScene ['|Grass']
+[ 12.50%]    before archiveExport ['|Grass']
+[  0.00%]     archiveExport alembic object: ['|Grass']
+[  0.00%]     abcExport D:/UVU/UVU-AGD-Portfolio/MayaProject/Dog-Chase-Animation/xgen/archives/abc/grassA.abc
+[  0.00%]     abcExport objects ['|Grass']
+[  0.00%]     abcExport select objects ['|Grass|GrassShape']
+[  0.00%]     abcExport -selection -uvWrite -frameRange 0.000000 0.000000 -worldSpace -file "D:/UVU/UVU-AGD-Portfolio/MayaProject/Dog-Chase-Animation/xgen/archives/abc/grassA.abc"
+[  0.00%]     getSGsFromObj |Grass
+[ 25.00%]     archiveExport for callbacks
+[  0.00%]      assExport D:/UVU/UVU-AGD-Portfolio/MayaProject/Dog-Chase-Animation/xgen/archives/ass/grassA
+[  0.00%]      assExport D:/UVU/UVU-AGD-Portfolio/MayaProject/Dog-Chase-Animation/xgen/archives/ass/grassA__Grass.ass.gz
+[  0.00%]      getSGsFromObj |Grass
+[ 25.00%]     archiveExport for callbacks finished
+[  8.33%]    before materialExport ['|Grass']
+[  8.33%]    materialExport D:/UVU/UVU-AGD-Portfolio/MayaProject/Dog-Chase-Animation/xgen/archives/materials/grassA.ma
+[  8.33%]    getSGsFromObj |Grass
+[100.00%]  done in 6.168 sec D:/UVU/UVU-AGD-Portfolio/MayaProject/Dog-Chase-Animation/xgen/archives/
+00:00:11   839MB         |  unloading 11 plugins
+00:00:11   839MB         |   closing hairPhysicalShader_shaders.dll ...
+00:00:11   839MB         |   closing lookdevkit_shaders.dll ...
+00:00:11   839MB         |   closing mtoa_shaders.dll ...
+00:00:11   839MB         |   closing renderSetup_shaders.dll ...
+00:00:11   839MB         |   closing xgenSpline_shaders.dll ...
+00:00:11   839MB         |   closing mtoa_ParticleVolume_proc.dll ...
+00:00:11   839MB         |   closing xgenSpline_procedural.dll ...
+00:00:11   839MB         |   closing xgen_procedural.dll ...
+00:00:11   839MB         |   closing alembic_proc.dll ...
+00:00:11   839MB         |   closing cryptomatte.dll ...
+00:00:11   839MB         |   closing usd_proc.dll ...
+00:00:11   839MB         |  unloading plugins done
+00:00:11   839MB WARNING |  Error 1 when uninitializing ADP
+00:00:11   839MB         | Arnold shutdown
+00:00:11   839MB         | Installing system handler with mask 0
